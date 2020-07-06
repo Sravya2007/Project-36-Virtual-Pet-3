@@ -1,8 +1,6 @@
-//Create variables here
 var dogImg, happyDogImg, dog, database, foodS, foodStock, canvas;
 
 function preload() {
-  //load images here
   dogImg = loadImage('images/Dog.png');
   happyDogImg = loadImage('images/happydog.png');
 }
