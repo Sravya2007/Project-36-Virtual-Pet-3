@@ -19,8 +19,9 @@ function draw() {
   background(46, 139, 87);
   if(keyWentDown(UP_ARROW)) {
     writeStock(foodS);
-    dog.addImage(happyDogImg);
+    dog.addImage("dog", happyDogImg);
   }
+
   drawSprites();
   //add styles here
   textSize(20);
