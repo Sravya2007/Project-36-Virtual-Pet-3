@@ -62,9 +62,11 @@ function feedDog() {
   if(foodCount === 0) {
     foodCount = 0;
     milk.visible = false;
+    dog.addImage(dogImg);
   } else if(foodCount !== 0 && gameState === "hungry"){
     food1.updateFoodStock(foodCount - 1);
     milk.visible = true;
+    dog.addImage(happyDogImg);
   }
 }
 

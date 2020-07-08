@@ -140,7 +140,6 @@ class Food {
             feed.show();
             input.show();
             dog.visible = true;
-            dog.addImage(happyDogImg);
             this.updateState(gameState);
           } 
 
