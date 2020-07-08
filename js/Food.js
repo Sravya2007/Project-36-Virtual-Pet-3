@@ -114,7 +114,6 @@ class Food {
             gameState = "playing"
             addFood.hide();
             feed.hide();
-            input.hide();
             dog.visible = false;
             this.updateState(gameState);
           } else if(currentTime === lastFed + 2) {
@@ -122,7 +121,6 @@ class Food {
             gameState = "sleeping"
             addFood.hide();
             feed.hide();
-            input.hide();
             dog.visible = false;
             this.updateState(gameState);
           } else if(currentTime >= (lastFed + 2) && currentTime <= (lastFed + 4)) {
@@ -130,7 +128,6 @@ class Food {
             gameState = "bathing"
             addFood.hide();
             feed.hide();
-            input.hide();
             dog.visible = false;
             this.updateState(gameState);
           } else {
