@@ -125,7 +125,7 @@ class Food {
             input.hide();
             dog.visible = false;
             this.updateState(gameState);
-          } else if(currentTime >= (lastFed + 2) && fedTime <= (lastFed + 4)) {
+          } else if(currentTime >= (lastFed + 2) && currentTime <= (lastFed + 4)) {
             food1.washroom();
             gameState = "bathing"
             addFood.hide();
